@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css?family=Old+Standard+TT');
+@import url('https://fonts.googleapis.com/css?family=Questrial');
+@import url('https://fonts.googleapis.com/css?family=Vast+Shadow');
+
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family:'Questrial', sans-serif;
+	font-size: 20px;
+	color: #222222;
+	line-height: 1.3;
+}
+
+nav {
+	font-family:'Old Standard TT', serif;
+}
+
+header {
+	font-family:'Old Standard TT', serif;
+	background-color: #D4D0A8;
+	padding: 20px;
+	color: #ffffff;
+	line-height: 1.3;
+}
+image {
+	width:100px;
+}
+a {
+	color: rgba(0,0,0,.5);
+	text-decoration: none;
+	font-weight: 25pt;
+}
+
+h2 {
+	font-family:'Vast Shadow', cursive;
+}
+
+#mySlogan {
+	font-family:'Old Standard TT', serif;
+	font-style: italic;
+	font-weight: 25pt;
+}
+
+#MyBusinessAddress{
+	/* text-align: right; */
+}
+ul {
+	padding-left: 35px;
+}
+footer {
+	background-color: #cccccc;
+	padding: 20px;
+	text-align: center;
+}
+#intro {
+	background:url(../images/GOT_party_July2017.jpg);
+	background-size:cover;
+	background-repeat:no-repeat;
+	color: rgba(255, 255, 255, 0.85);
+	font-family: 'Old Standard TT', serif;
+	font-size:1.5em;
+	padding: 10em 0 0 3em;
+	height: 90vh;
+}
+#intro div {
+	width: 25em;
+
+
