@@ -1,7 +1,7 @@
 
-@import url('https://fonts.googleapis.com/css?family=Old+Standard+TT');
-@import url('https://fonts.googleapis.com/css?family=Questrial');
 @import url('https://fonts.googleapis.com/css?family=Vast+Shadow');
+@import url('https://fonts.googleapis.com/css?family=Oswald');
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display');
 
 header {
 	background-color: #FFED74;
@@ -48,7 +48,7 @@ body {
 }
 
 nav {
-	font-family:'Old Standard TT', serif;
+	font-family: 'Oswald', sans-serif;
 }
 
 header {
@@ -98,16 +98,22 @@ h2 {
 	font-family:'Vast Shadow', cursive;
 }
 
+#logo {font-family:'Vast Shadow', cursive;
+
+}
+
 #mySlogan {
-	font-family:'Old Standard TT', serif;
+	font-family: 'Playfair Display', serif;
 	font-style: italic;
 	font-weight: 25pt;
 }
 
 #MyBusinessAddress{
+	font-family: 'Playfair Display', serif;
 	/* text-align: right; */
 }
 ul {
+	font-family: 'Playfair Display', serif;
 	padding-left: 35px;
 
 footer {
@@ -120,13 +126,11 @@ footer {
 	background-size:cover;
 	background-repeat:no-repeat;
 	color: rgba(255, 255, 255, 0.85);
-	font-family: 'Old Standard TT', serif;
+	font-family: 'Playfair Display', serif;
 	font-size:1.5em;
 	padding: 10em 0 0 3em;
 	height: 90vh;
 }
-#intro div {
-	width: 25em;
 
 
 
