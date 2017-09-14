@@ -47,47 +47,12 @@ h2 {
 	font-family: 'Playfair Display', serif;
 	/* text-align: right; */
 }
-
-#BookACellar {
-	list-style: none;
-}
-#StraightFromTheBlog {
-	list-style: none;
-}
-#JustForYou {
-	list-style: none;
-}
-#three_column {
-    background-color: #FFB7CF;
-    border: 1px black solid;
-    padding: 20px;
-}
-
-#left {
-    background-color: #E582A2;
-    border: 1px black solid;
-    padding: 30px;
-}
-
-#right {
-    background-color: #E55B88;
-    border: 1px black solid;
-    padding: 20px;
-}
 #left {
     background-color: violet;
-    border: 1px black solid;
-    padding: 20px;
-    float: left;
-    width: 30%;
 }
 
 #right {
     background-color: pink;
-    border: 1px black solid;
-    padding: 20px;
-    float: right;   
-    width: 30%;
 }
 .clearfix:after {
     visibility: hidden;
