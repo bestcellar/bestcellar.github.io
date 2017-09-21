@@ -66,6 +66,7 @@ h2 {
 	font-family: 'Playfair Display', serif;
 	/* text-align: right; */
 }
+<<<<<<< HEAD
 #three_column {
 	background-color: #C9C6A4;
     padding: 30px;
@@ -85,14 +86,22 @@ h2 {
     padding-left: 65px;
     float: left;
     text-align: center;
+=======
+#left {
+    background-color: violet;
+>>>>>>> 1f70f5b3c2b0150e9f8c510bed8af77d5fefb350
 }
 #right {
+<<<<<<< HEAD
     background-color: #C9C6A4;
     padding: 20px;
     float: right;
     width: 30%;
     padding-right:100px;
     text-align: center;
+=======
+    background-color: pink;
+>>>>>>> 1f70f5b3c2b0150e9f8c510bed8af77d5fefb350
 }
 .clearfix:after {
     visibility: hidden;
@@ -157,6 +166,7 @@ footer {
 	padding: 10em 0 0 3em;
 	height: 90vh;
 }
+<<<<<<< HEAD
 @media only screen and (max-width: 800px) {
 	ul {
 		float: none;
@@ -195,3 +205,5 @@ footer {
     padding: .6em;
   }
 }
+=======
+>>>>>>> 1f70f5b3c2b0150e9f8c510bed8af77d5fefb350
