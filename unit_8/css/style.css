@@ -8,8 +8,9 @@
 }
 
 body {
+    background-color: #C9C6A4;
 	font-family:'Questrial', serif;
-	font-size: 20px;
+	font-size: 16px;
 	color: #222222;
 	line-height: 1.3;
 }
@@ -119,7 +120,6 @@ h2 {
 }
 
 ul li{
-	background-color: #C9C6A4;
 	text-align: center;
     float: left;
     width: 20%;
@@ -138,14 +138,15 @@ li {
 li img {
 	width:100%;
 }
-#list {
-	clear: top;
+ul {
+	clear: bottom;
 }
 footer {
 	clear: left;
 	background-color: #cccccc;
 	padding: 10px;
 	text-align: center;
+    width: 100%;
 }
 #intro {
 	background:url(../images/GOT_party_July2017.jpg);
@@ -158,40 +159,92 @@ footer {
 	height: 90vh;
 }
 @media only screen and (max-width: 800px) {
-	ul {
-		float: none;
-  	}
-  	ul {
-  	 margin: 0 1.6em .75em 0;
-  	}
-  	img {
-    width: 320px;
-  	}
+        img {
+            width: 320px;
+    }
+        #icon, #booknow, #archives, #readon {
+            width: 100px;
 }
-@media only screen and (max-width: 480px) {
-	h1, nav {
-    display: block;
-    text-align:center;
-  }
-  h2 {
-    font-size: 1em;
-    display: inline;
-  }
-  p, ul {
-    margin: 1.8em .6em 0;
-  }
-    li {
-    width: 80%;
-    outline-width: .5em;
-    padding: .5em;
-    height: 2em;
-    line-height: 2em;
-  }
-    img {
-    width: 230px;
-  }
-    section, div {
-    width: 100%;
-    padding: .6em;
-  }
+        #left {
+            float: none;
+            width: 100;
+            font-size: 1em;
+            text-align: center;
+            width: 100%;
+            margin-left: -35px;
+
+        }
+        #center {
+            float: none;
+            width: 100;
+            font-size: 1em;
+            text-align: center;
+            width: 100%;
+            margin-left: -20px;
+
+        }
+        #right {
+            float: none;
+            width: 100;
+            font-size: 1em;
+            text-align: center;
+            width: 100%;
+            margin-left: 40px;
+        }
+        #intro {
+            font-size: 1.5em
+        }
+        ul {
+            font-size: .75em
+        }
+        #classicpairingintro {
+            font-size: 1em;
+        }
+          
+}
+}
+@media only screen and (max-width: 375px) {
+        img {
+            width: 5px;
+    }
+        #icon, #booknow, #archives, #readon {
+            width: 100px;
+}
+        #left {
+            float: none;
+            width: 100;
+            font-size: .75em;
+            text-align: center;
+            width: 100%;
+            margin-left: -35px;
+
+        }
+        #center {
+            loat: none;float: none;
+            width: 100;
+            font-size: .75em;
+            text-align: center;
+            width: 100%;
+            margin-left: -20px;
+
+        }
+        #right {
+            float: none;
+            width: 100;
+            font-size: .75em;
+            text-align: center;
+            width: 100%;
+            margin-left: 40px;
+        }
+        #intro {
+            font-size: 1em
+        }
+        ul {
+            float: none;
+            font-size: .75em
+        }
+        #classicpairingintro {
+            font-size: .75em;
+        }
+          
 }
